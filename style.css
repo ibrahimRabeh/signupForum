@@ -1,0 +1,120 @@
+*{
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    
+}
+body{
+    width: 95%;
+    background-image: url(backgroundforum.jpg);
+    
+}
+
+
+
+.introText{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5%;
+
+}
+.mainContainer{
+    display: grid;
+    grid-template-columns: 60% 43%;
+    grid-gap: 10px;
+}
+.backgroundContainer {
+    height: 100%;
+    background-color: rgb(9, 0, 37);
+    padding: 10px;
+    box-shadow: 0px 0px 15px 15px rgb(1, 0, 3);
+}
+.textLogo{
+    position: relative;
+    top: 50%;
+    font-size: 30px;
+    height: 20%;
+    text-align: center;
+    background-color: #0000007b;
+    opacity: 0.8;
+
+}
+
+#signUpContainer{
+    background-color: black;
+    margin: 15% 0%;
+    padding: 20px 20px 0px 20px;
+    border-radius: 5%;
+    box-shadow: 0px 0px 2px 2px rgb(108, 107, 107);
+
+}
+input {
+    border:0px solid wheat;
+    border-bottom: 1px solid white;
+    box-shadow: 0px 0px 0px 0px white;
+    background-color: rgb(19, 0, 0);
+    margin: 10px 10px 10px 0px;
+    width: 45%;
+    color: rgb(18, 18, 18);
+    color: white;
+}
+input:focus{
+    border:3px solid rgb(65, 249, 3);
+}
+input:hover{
+    padding: 5px 0px;
+    background-color: rgb(5, 1, 27);
+}
+label{
+    margin-top:10px ;
+    display: flex;
+}
+
+.button {
+    margin:10px 0px ;
+    background-color: #ffffff00;
+    color: #fff;
+    width: 8.5em;
+    height: 1.9em;
+    border: #3654ff 0.1em solid;
+    border-radius: 11px;
+    text-align: right;
+    transition: all 0.6s ease;
+  }
+  
+  .button:hover {
+    background-color: #3654ff;
+    cursor: pointer;
+
+  }
+  
+  .button svg {
+    width: 1.2em;
+    margin: -0.2em 0.8em 1em;
+    position: absolute;
+    display: flex;
+    transition: all 0.6s ease;
+  }
+  .button:focus{
+    background-color: #3654ff;
+    width: 45%;
+    font-size: larger;
+  }
+  .button:focus svg{
+    width: 1.6em;
+  }
+  .button:hover svg {
+    transform: translateX(5px);
+  }
+  
+  .text {
+    margin: 0 1.5em
+  }
+  p {
+    font-size: 14px;
+    color: gray;
+  }
+  .correct{
+    font-size: 14px;
+    color: green;
+  }
